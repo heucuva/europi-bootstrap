@@ -7,6 +7,7 @@
 *.dll
 *.so
 *.dylib
+__debug_bin
 
 # Test binary, built with `go test -c`
 *.test
@@ -19,3 +20,10 @@
 
 # Go workspace file
 go.work
+
+# TinyGo
+*.elf
+*.uf2
+
+# IDE local settings
+.vscode
